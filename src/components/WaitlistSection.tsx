@@ -73,7 +73,7 @@ const WaitlistSection = () => {
                 <RadioGroup
                   value={formData.interest}
                   onValueChange={(value) => setFormData({ ...formData, interest: value })}
-                  className="grid grid-cols-1 md:grid-cols-3 gap-4"
+                  className="grid grid-cols-1 md:grid-cols-2 gap-4"
                 >
                   <div className="flex items-center space-x-2 p-3 border border-border rounded-lg hover:border-primary/40 transition-colors">
                     <RadioGroupItem value="investor" id="investor" />
@@ -82,10 +82,6 @@ const WaitlistSection = () => {
                   <div className="flex items-center space-x-2 p-3 border border-border rounded-lg hover:border-primary/40 transition-colors">
                     <RadioGroupItem value="operator" id="operator" />
                     <Label htmlFor="operator" className="font-medium cursor-pointer">Operator</Label>
-                  </div>
-                  <div className="flex items-center space-x-2 p-3 border border-border rounded-lg hover:border-primary/40 transition-colors">
-                    <RadioGroupItem value="partner" id="partner" />
-                    <Label htmlFor="partner" className="font-medium cursor-pointer">Partner</Label>
                   </div>
                 </RadioGroup>
               </div>

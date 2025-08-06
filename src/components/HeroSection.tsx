@@ -37,7 +37,7 @@ const HeroSection = () => {
             earn scheduled yield in USDC/USDT, and empower local operators in high-growth markets.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex justify-center">
             <Button 
               variant="hero" 
               size="lg" 
@@ -49,9 +49,6 @@ const HeroSection = () => {
               }}
             >
               Join the Waitlist
-            </Button>
-            <Button variant="outline" size="lg" className="min-w-[200px]">
-              Learn More
             </Button>
           </div>
           

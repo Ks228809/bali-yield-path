@@ -88,7 +88,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 MeKoin. All rights reserved.
+              © 2025 MeKoin. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground mt-4 md:mt-0">
               Tokenizing hospitality, empowering communities.
