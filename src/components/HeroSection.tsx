@@ -38,7 +38,16 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="hero" size="lg" className="min-w-[200px]">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="min-w-[200px]"
+              onClick={() => {
+                document.getElementById('waitlist')?.scrollIntoView({ 
+                  behavior: 'smooth' 
+                });
+              }}
+            >
               Join the Waitlist
             </Button>
             <Button variant="outline" size="lg" className="min-w-[200px]">

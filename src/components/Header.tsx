@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/4615f668-2fcf-4e39-a14b-72e227e2c583.png" 
             alt="MeKoin Logo" 
-            className="h-10 w-auto"
+            className="h-14 w-auto"
           />
         </div>
         
@@ -24,7 +24,15 @@ const Header = () => {
           </a>
         </nav>
         
-        <Button variant="outline" size="sm">
+        <Button 
+          variant="outline" 
+          size="sm"
+          onClick={() => {
+            document.getElementById('waitlist')?.scrollIntoView({ 
+              behavior: 'smooth' 
+            });
+          }}
+        >
           Join Waitlist
         </Button>
       </div>
