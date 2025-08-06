@@ -7,11 +7,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">M</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">MeKoin</span>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/lovable-uploads/4615f668-2fcf-4e39-a14b-72e227e2c583.png" 
+                alt="MeKoin Logo" 
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Democratizing access to real-world yield through tokenized hospitality investments 

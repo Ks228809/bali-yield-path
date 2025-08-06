@@ -17,32 +17,32 @@ All colors MUST be HSL.
     --popover: 20 14% 6%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 27 96% 61%;
-    --primary-foreground: 20 14% 4%;
+    --primary: 180 70% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 12 6.5% 15.1%;
+    --secondary: 260 60% 50%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
+    --muted: 260 20% 25%;
+    --muted-foreground: 260 10% 70%;
 
-    --accent: 27 96% 61%;
-    --accent-foreground: 20 14% 4%;
+    --accent: 180 70% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 95%;
 
-    --border: 12 6.5% 15.1%;
-    --input: 12 6.5% 15.1%;
-    --ring: 27 96% 61%;
+    --border: 260 20% 25%;
+    --input: 260 20% 25%;
+    --ring: 180 70% 60%;
 
-    --hero-gradient: linear-gradient(135deg, 27 96% 61%, 35 91% 65%, 43 74% 49%);
-    --accent-gradient: linear-gradient(90deg, 27 96% 61%, 35 91% 65%);
+    --hero-gradient: linear-gradient(135deg, hsl(260 60% 50%), hsl(250 70% 40%), hsl(240 80% 35%));
+    --accent-gradient: linear-gradient(90deg, hsl(180 70% 60%), hsl(170 75% 55%));
     --success: 142 76% 36%;
     --success-foreground: 0 0% 95%;
     
-    --shadow-luxury: 0 25px 50px -12px hsl(27 96% 61% / 0.25);
-    --glow-primary: 0 0 40px hsl(27 96% 61% / 0.4);
+    --shadow-luxury: 0 25px 50px -12px hsl(260 60% 50% / 0.25);
+    --glow-primary: 0 0 40px hsl(180 70% 60% / 0.4);
 
     --radius: 0.5rem;
 
@@ -73,24 +73,24 @@ All colors MUST be HSL.
     --popover: 20 14% 6%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 27 96% 61%;
-    --primary-foreground: 20 14% 4%;
+    --primary: 180 70% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 12 6.5% 15.1%;
+    --secondary: 260 60% 50%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
+    --muted: 260 20% 25%;
+    --muted-foreground: 260 10% 70%;
 
-    --accent: 27 96% 61%;
-    --accent-foreground: 20 14% 4%;
+    --accent: 180 70% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 95%;
 
-    --border: 12 6.5% 15.1%;
-    --input: 12 6.5% 15.1%;
-    --ring: 27 96% 61%;
+    --border: 260 20% 25%;
+    --input: 260 20% 25%;
+    --ring: 180 70% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
